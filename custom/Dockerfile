@@ -1,2 +1,5 @@
 FROM gliderlabs/logspout:master
-ENV SYSLOG_FORMAT rfc3164
+
+LABEL MAINTAINER "Gary A. Stafford <garystafford@rochester.rr.com>"
+
+ENV REFRESHED_AT 2017-09-13
